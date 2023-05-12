@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pdfmerger"
+version = "0.1.0"
+description = "A quick cli merge pdfs"
+authors = ["Arthur <arthur@chunai.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyPDF2 = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
